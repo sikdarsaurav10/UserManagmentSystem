@@ -11,16 +11,16 @@ Prerequisites
 
 Installation:
 1. Make a project directory on your local and go inside it:
-  mkdir <dir_name>
-  cd <dir_name>
+        1. mkdir <dir_name>
+        2. cd <dir_name>
 
-2. Clone the repository to your local machine using the following command:
+3. Clone the repository to your local machine using the following command:
   git clone <repository_url>
 
-3. Create a virtual environment to isolate project dependencies:
+4. Create a virtual environment to isolate project dependencies:
   python3 -m venv virtual
 
-4. Activate the virtual environment:
+5. Activate the virtual environment:
 
 	1. On Windows:
 			.\env\Scripts\activate
@@ -32,12 +32,12 @@ Installation:
 
 Running the Project:
 1. Navigate to the driver app directory:
-  cd userManagementSystem
-  cd user_management_system
+        1. cd userManagementSystem
+        2. cd user_management_system
 
 3. After installing the dependencies, migrate the database using the following command:( if the sqlite db does not have the table, by default it is already present )
-  python3 manage.py makemigrations
-  python3 manage.py migrate
+        1. python3 manage.py makemigrations
+        2. python3 manage.py migrate
 
 4. (Optional) Import initial data into the database from input_data.json:
   python3 manage.py import_data input_data.json
