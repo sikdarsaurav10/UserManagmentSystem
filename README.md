@@ -22,12 +22,12 @@ Installation:
 
 4. Activate the virtual environment:
 
-  a. On Windows:
-      .\env\Scripts\activate
-  b. On macOS and Linux:
-      source env/bin/activate
+	1. On Windows:
+			.\env\Scripts\activate
+	2. On macOS and Linux:
+		source env/bin/activate
 
-5. Install project dependencies from the requirements.txt file:
+6. Install project dependencies from the requirements.txt file:
   pip install -r requirements.txt
 
 Running the Project:
