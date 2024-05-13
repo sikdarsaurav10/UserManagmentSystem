@@ -11,41 +11,41 @@ Prerequisites
 
 Installation:
 1. Make a project directory on your local and go inside it:
-  i. mkdir <dir_name>
-  ii. cd <dir_name>
+  	i. mkdir <dir_name>
+  	ii. cd <dir_name>
 
-3. Clone the repository to your local machine using the following command:
+2. Clone the repository to your local machine using the following command:
   git clone <repository_url>
 
-4. Create a virtual environment to isolate project dependencies:
+3. Create a virtual environment to isolate project dependencies:
   python3 -m venv virtual
 
-5. Activate the virtual environment:
+4. Activate the virtual environment:
 
 	1. On Windows:
 			.\env\Scripts\activate
 	2. On macOS and Linux:
 		source env/bin/activate
 
-6. Install project dependencies from the requirements.txt file:
+5. Install project dependencies from the requirements.txt file:
   pip install -r requirements.txt
 
 Running the Project:
 1. Navigate to the driver app directory:
-  i. cd userManagementSystem
-  ii. cd user_management_system
+  	i. cd userManagementSystem
+  	ii. cd user_management_system
 
-3. After installing the dependencies, migrate the database using the following command:( if the sqlite db does not have the table, by default it is already present )
-        1. python3 manage.py makemigrations
-        2. python3 manage.py migrate
+2. After installing the dependencies, migrate the database using the following command:( if the sqlite db does not have the table, by default it is already present )
+   	i. python3 manage.py makemigrations
+        ii. python3 manage.py migrate
 
-4. (Optional) Import initial data into the database from input_data.json:
+3. (Optional) Import initial data into the database from input_data.json:
   python3 manage.py import_data input_data.json
 
-5. Start the development server:
+4. Start the development server:
   python3 manage.py runserver
 
-6. Open your web browser and navigate to http://127.0.0.1:8000/ to access the user management application.
+5. Open your web browser and navigate to http://127.0.0.1:8000/ to access the user management application.
 
 Contributing:
 If you'd like to contribute to this project, please follow these guidelines:
