@@ -10,11 +10,12 @@ Prerequisites
 2. pip (Python package installer)
 
 Installation:
-1. Clone the repository to your local machine using the following command:
-  git clone <repository_url>
+1. Make a project directory on your local and go inside it:
+  mkdir <dir_name>
+  cd <dir_name>
 
-2. Navigate to the project directory:
-  cd userManagementSystem
+2. Clone the repository to your local machine using the following command:
+  git clone <repository_url>
 
 3. Create a virtual environment to isolate project dependencies:
   python3 -m venv virtual
